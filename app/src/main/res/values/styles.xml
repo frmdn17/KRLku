@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeWork" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/cardBackgroundYellow</item>
+        <item name="colorPrimary">@color/cardBackgroundYellow</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Your application theme -->
+    </style>
+    <style name="AppThemeReading" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/cardBackgroundGreen2</item>
+        <item name="colorPrimary">@color/cardBackgroundGreen2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Your application theme -->
+    </style>
+    <style name="AppSplash" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeInfo" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/cardBackgroundPurple</item>
+        <item name="colorPrimary">@color/cardBackgroundPurple</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeTravel" parent="AppTheme">
+        <item name="colorPrimaryDark">@color/cardBackgroundGreen</item>
+        <item name="colorPrimary">@color/cardBackgroundGreen</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

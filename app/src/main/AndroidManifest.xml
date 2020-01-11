@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="me.muhammadfaisal.krlku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".reading.office.OfficeActivity"
+            android:theme="@style/AppThemeReading"/>
+        <activity
+            android:name=".reading.history.HistoryActivity"
+            android:theme="@style/AppThemeReading" />
+        <activity
+            android:name=".work.WorkActivity"
+            android:theme="@style/AppThemeWork" />
+        <activity
+            android:name=".reading.danger.DangerSituationActivity"
+            android:theme="@style/AppThemeReading" />
+        <activity
+            android:name=".reading.type.DetailTypeActivity"
+            android:theme="@style/AppThemeReading" />
+        <activity
+            android:name=".reading.type.TypeActivity"
+            android:theme="@style/AppThemeReading" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/AppSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".reading.ReadingActivity"
+            android:theme="@style/AppThemeReading" />
+        <activity
+            android:name=".info.AboutActivity"
+            android:theme="@style/AppThemeInfo" />
+        <activity
+            android:name=".travel.TravelActivity"
+            android:theme="@style/AppThemeTravel" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

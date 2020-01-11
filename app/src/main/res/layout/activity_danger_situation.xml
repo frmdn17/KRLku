@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flavienlaurent.discrollview.lib.DiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.flavienlaurent.discrollview.lib.DiscrollViewContent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@android:color/white"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:padding="25dp"
+            android:text="Bagaimana Bila Terjadi Situasi Darurat?"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="@string/sumber"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/cardBackgroundGreen2"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_threshold="0.3"
+            android:textSize="12sp"
+            tools:ignore="MissingPrefix" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            tools:ignore="MissingPrefix">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Ikuti Arahan Petugas"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:src="@drawable/follow_instruction"
+                tools:ignore="MissingPrefix" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/ikuti_arahan"
+                android:textSize="12sp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromBottom"
+                tools:ignore="MissingPrefix" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            tools:ignore="MissingPrefix">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Keluar Melalui Pintu"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:src="@drawable/press_emergency_button"
+                tools:ignore="MissingPrefix" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/putar_tuas"
+                android:textSize="12sp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromBottom"
+                tools:ignore="MissingPrefix" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <View
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            discrollve:discrollve_scaleX="true"
+            discrollve:discrollve_scaleY="true"
+            tools:ignore="MissingPrefix">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:fontFamily="@font/roboto_bold"
+                android:text="Keluar Melalui Jendela"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:src="@drawable/open_the_window"
+                tools:ignore="MissingPrefix" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="@string/keluar_jendela"
+                android:textSize="12sp"
+                discrollve:discrollve_alpha="true"
+                discrollve:discrollve_translation="fromBottom"
+                tools:ignore="MissingPrefix" />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+
+    </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+</com.flavienlaurent.discrollview.lib.DiscrollView>
